@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^.git - [F,L]
+
+<Files *>
+Options -Indexes
+</Files>
