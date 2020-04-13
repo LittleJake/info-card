@@ -17,7 +17,15 @@ html, body, .wrapper {
     background: inherit;
     filter: blur(2px);
 }
-
+.bg,
+.placeholder,
+.mdui-card {
+    background: rgba(0,0,0,0.2);
+}
+.mdui-card-actions,
+.card-content{
+    background: #fff;
+}
 .card {
     display: -webkit-box;
     display: -webkit-flex;
